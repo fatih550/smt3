@@ -1,0 +1,60 @@
+class Teman:
+    def __init__(self, nama):
+        self.nama = nama
+
+    def perkenalan(self):
+        print(f"Halo, nama saya {self.nama}.")
+
+    def bicara(self, pesan):
+        print(f"{self.nama}: {pesan}")
+
+
+fatih = Teman("Fatih")
+fauzan = Teman("Fauzan")
+
+fatih.perkenalan()
+fauzan.perkenalan()
+print("-" * 30)
+
+fatih.bicara("Halo, kenalin nama gue Fatih.")
+fauzan.bicara("Halo juga, nama gue Fauzan.")
+fatih.bicara("Salam kenal ya, Fauzan.")
+fauzan.bicara("Salam kenal juga, Fatih.")
+fatih.bicara("Btw, boleh nanya sesuatu?")
+fauzan.bicara("Boleh, mau nanya apa?")
+fatih.bicara("Di sekitar sini ada tempat makan enak nggak?")
+fauzan.bicara("Ada sih, tapi gue belum pernah coba.")
+fatih.bicara("Lah, kok belum pernah coba?")
+fauzan.bicara("Soalnya gue lebih sering makan di rumah.")
+fatih.bicara("Ohh, sama dong. Gue juga jarang jajan sih, cuma lagi pengen makan diluar aja.")
+fauzan.bicara("Btw, lu tinggal di daerah mana?")
+fatih.bicara("Gue tinggal nggak jauh dari sini. Lu sendiri?")
+fauzan.bicara("Gue juga deket sini.")
+fatih.bicara("Wah, berarti tetanggaan dong kita.")
+fauzan.bicara("Bisa jadi, wkwkwk.")
+fatih.bicara("Btw, lu suka main game nggak?")
+fauzan.bicara("Suka banget, apalagi Mobile Legends.")
+fatih.bicara("Wah, sama dong. Biasanya lu main role apa?")
+fauzan.bicara("Gue biasanya jungler sih, lu?")
+fatih.bicara("Gue juga biasanya jungler, gue suka pakai hero Fanny.")
+fauzan.bicara("Ohh, gue juga suka jungler sih. Biasanya gue pakai Estes.")
+fatih.bicara("Hah? Estes jungler?")
+fauzan.bicara("Lah iya, emang kenapa?")
+fatih.bicara("Lah, Estes kan hero support, bukan jungler.")
+fauzan.bicara("Terus kenapa? Yang penting bisa basic attack.")
+fatih.bicara("Wkwkwk, tapi Estes nggak punya damage buat team fight.")
+fauzan.bicara("Ya nggak apa-apa, yang penting tim gue nggak mati, kan bisa gw healing.")
+fatih.bicara("Btw, rank lu sekarang apa?")
+fauzan.bicara("Masih Epic 5 sih, kalau lu?")
+fatih.bicara("Gue udah Immortal bintang 300.")
+fauzan.bicara("Wah, tinggi banget. Boleh tuh kapan-kapan mabar.")
+fatih.bicara("Pantesan dari tadi obrolan kita nggak nyambung.")
+fauzan.bicara("Loh, kenapa emangnya?")
+fatih.bicara("Lu rank Epic soalnya.")
+fauzan.bicara("Lah, kok malah ngejek rank gue?")
+fatih.bicara("Bukan ngejek, gue cuma takut nanti gue disuruh solo lord pake Estes.")
+fauzan.bicara("Yaudah, nggak jadi mabar deh wkwk.")
+fatih.bicara("Wkwkwk, bercanda bang. Semangat push rank-nya!")
+fauzan.bicara("Iya, lu juga jangan lupa istirahat dari game.")
+fatih.bicara("Siap, duluan ya bang!")
+fauzan.bicara("Oke, hati-hati di jalan!")
